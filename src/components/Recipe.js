@@ -2,11 +2,11 @@ import React, { useRef, useState, useEffect } from "react";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/recipe.scss";
-import { TimelineLite } from "gsap";
+import { TimelineMax } from "gsap";
 
 function Recipe({ label, image, calories, ingredientLines }) {
   let buttonRef = useRef(null);
-  const tl = new TimelineLite();
+  const tl = new TimelineMax();
   const onClick = () => {
     const detail = buttonRef;
     if (detail.style.display === "none") {
