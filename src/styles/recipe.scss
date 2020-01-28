@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+
+$mainFont: "Bangers", cursive;
+.recipe {
+  border-bottom: 1px solid black;
+  margin: 0.5em;
+  font-family: $mainFont;
+  padding: 0.2em;
+  overflow: hidden;
+  .dropdown-menu {
+    display: flex;
+    justify-content: space-between;
+    .dropdown-label {
+      font-size: 2em;
+      letter-spacing: 0.1em;
+      margin-left: 1.5em;
+    }
+    .arrow-button {
+      all: unset;
+      margin-right: 1em;
+    }
+  }
+  .dropdown-detail {
+    margin-top: 2em;
+    text-align: center;
+
+    .recipe-image {
+      width: 15em;
+      height: 15em;
+      border-radius: 50%;
+    }
+    .recipe-calories {
+      font-size: 2em;
+    }
+  }
+}
