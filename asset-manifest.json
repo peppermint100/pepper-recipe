@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/pepper-recipe/static/css/main.66688e40.chunk.css",
-    "main.js": "/pepper-recipe/static/js/main.c9f31989.chunk.js",
-    "main.js.map": "/pepper-recipe/static/js/main.c9f31989.chunk.js.map",
+    "main.js": "/pepper-recipe/static/js/main.3243850f.chunk.js",
+    "main.js.map": "/pepper-recipe/static/js/main.3243850f.chunk.js.map",
     "runtime-main.js": "/pepper-recipe/static/js/runtime-main.a2a2a043.js",
     "runtime-main.js.map": "/pepper-recipe/static/js/runtime-main.a2a2a043.js.map",
-    "static/js/2.70f0c38a.chunk.js": "/pepper-recipe/static/js/2.70f0c38a.chunk.js",
-    "static/js/2.70f0c38a.chunk.js.map": "/pepper-recipe/static/js/2.70f0c38a.chunk.js.map",
+    "static/js/2.eb08d5f5.chunk.js": "/pepper-recipe/static/js/2.eb08d5f5.chunk.js",
+    "static/js/2.eb08d5f5.chunk.js.map": "/pepper-recipe/static/js/2.eb08d5f5.chunk.js.map",
     "index.html": "/pepper-recipe/index.html",
-    "precache-manifest.31a865fbe02bbe3110704ac42b116663.js": "/pepper-recipe/precache-manifest.31a865fbe02bbe3110704ac42b116663.js",
+    "precache-manifest.4cdf973d1100d4b46facddb50cb35623.js": "/pepper-recipe/precache-manifest.4cdf973d1100d4b46facddb50cb35623.js",
     "service-worker.js": "/pepper-recipe/service-worker.js",
     "static/css/main.66688e40.chunk.css.map": "/pepper-recipe/static/css/main.66688e40.chunk.css.map",
-    "static/js/2.70f0c38a.chunk.js.LICENSE": "/pepper-recipe/static/js/2.70f0c38a.chunk.js.LICENSE"
+    "static/js/2.eb08d5f5.chunk.js.LICENSE": "/pepper-recipe/static/js/2.eb08d5f5.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.a2a2a043.js",
-    "static/js/2.70f0c38a.chunk.js",
+    "static/js/2.eb08d5f5.chunk.js",
     "static/css/main.66688e40.chunk.css",
-    "static/js/main.c9f31989.chunk.js"
+    "static/js/main.3243850f.chunk.js"
   ]
 }
