@@ -1,8 +1,15 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/recipe.scss";
 import { TimelineMax } from "gsap";
+
+// solve css plugin problem in gsap library
+// gsap doesn't support es6 so we need to use react-gsap library or add plugin
+// like this
+import CSSPlugin from "gsap/CSSPlugin";
+
+const C = CSSPlugin;
 
 function Recipe({ label, image, calories, ingredientLines }) {
   let buttonRef = useRef(null);
@@ -49,7 +56,7 @@ function Recipe({ label, image, calories, ingredientLines }) {
         style={{ display: "none" }}
         ref={el => (buttonRef = el)}
       >
-        <img src={image} className="recipe-image" />
+        <img alt={label} src={image} className="recipe-image" />
         {ingredientLines.map(ingredient => {
           return (
             <p key={ingredient} className="recipe-ingredient">

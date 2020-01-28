@@ -10,7 +10,6 @@ function Recipes() {
   const [recipes, setRecipes] = useState([]);
   useEffect(() => {
     getRecipes();
-    console.log(recipes);
   }, []);
 
   const getRecipes = async () => {
