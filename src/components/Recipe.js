@@ -8,7 +8,6 @@ function Recipe({ label, image, calories, ingredientLines }) {
   let buttonRef = useRef(null);
   const tl = new TimelineLite();
   const onClick = () => {
-    console.log("clicked!");
     const detail = buttonRef;
     if (detail.style.display === "none") {
       showDetail(detail);
