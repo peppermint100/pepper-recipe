@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pepper-recipe/static/css/main.66688e40.chunk.css",
+    "main.js": "/pepper-recipe/static/js/main.31904a68.chunk.js",
+    "main.js.map": "/pepper-recipe/static/js/main.31904a68.chunk.js.map",
+    "runtime-main.js": "/pepper-recipe/static/js/runtime-main.a2a2a043.js",
+    "runtime-main.js.map": "/pepper-recipe/static/js/runtime-main.a2a2a043.js.map",
+    "static/js/2.1c96e001.chunk.js": "/pepper-recipe/static/js/2.1c96e001.chunk.js",
+    "static/js/2.1c96e001.chunk.js.map": "/pepper-recipe/static/js/2.1c96e001.chunk.js.map",
+    "index.html": "/pepper-recipe/index.html",
+    "precache-manifest.538e7edb9c76ae79687bfe16fa23f2b7.js": "/pepper-recipe/precache-manifest.538e7edb9c76ae79687bfe16fa23f2b7.js",
+    "service-worker.js": "/pepper-recipe/service-worker.js",
+    "static/css/main.66688e40.chunk.css.map": "/pepper-recipe/static/css/main.66688e40.chunk.css.map",
+    "static/js/2.1c96e001.chunk.js.LICENSE": "/pepper-recipe/static/js/2.1c96e001.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2a2a043.js",
+    "static/js/2.1c96e001.chunk.js",
+    "static/css/main.66688e40.chunk.css",
+    "static/js/main.31904a68.chunk.js"
+  ]
+}
